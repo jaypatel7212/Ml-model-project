@@ -1,0 +1,143 @@
+.dataset-main-div {
+  padding: 50px 100px;
+  max-width: 50px 0px;
+
+  .dataset-content {
+    font-family: "JosefinSans";
+    justify-content: flex-start;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.5px;
+    margin: 10px 0px;
+  }
+  .data-btn {
+    width: 249px;
+    padding: 10px;
+    background-color: #f7d060;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: "JosefinSans";
+  }
+  .sort-icon {
+    width: 30px;
+    padding: 0px 10px;
+  }
+  .filter-flex {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    padding: 0px 20px;
+  }
+  .tab-list {
+    background-color: lightgray;
+    padding: 10px 20px;
+    border-radius: 15px;
+    letter-spacing: 2px;
+    margin-right: 20px;
+    border: none;
+  }
+  .tab-btn {
+    width: 100%;
+    padding: 20px 0px;
+    border: none;
+    display: flex;
+  }
+  .dataset-img {
+    width: 300px;
+    height: 250px;
+    border-radius: 20px ;
+    padding: 10px;
+  }
+  .main-dataset-grid {
+    align-items: center;
+    display: grid;
+    color: white;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 20px 0px;
+    margin: 50px 0px;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .tab-list {
+    background-color: white;
+    color: "black";
+    padding: 20px 25px;
+    font-family: "JosefinSans";
+    border-radius: 10px;
+    justify-content: flex-start;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+  .tab-list.active {
+    background-color: #f7d060;
+    padding: 20px 25px;
+    border-radius: 10px;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: "JosefinSans";
+  }
+}
+table {
+  max-width: 60%;
+  border: 1px solid white;
+  margin: 50px;
+  overflow: overlay;
+  padding: 30px;
+  background-color: white;
+}
+thead {
+  font-size: 20px;
+  background-color: #f7d060;
+  color: white;
+  letter-spacing: 2px;
+  letter-spacing: 1px;
+  font-family: "JosefinSans";
+  line-height: 30px;
+}
+tbody {
+  font-size: 15px;
+  color: black;
+  letter-spacing: 2px;
+}
+td {
+  padding: 20px 30px;
+  border: 1px solid;
+}
+th {
+  padding: 15px 0px;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+}
+
+.loader-spinner {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

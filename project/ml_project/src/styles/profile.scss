@@ -1,0 +1,110 @@
+.profile-main {
+  display: flex;
+  margin-left: 100px;
+}
+.profile-second-section {
+  display: flex;
+  /* width: 100%; */
+  margin: 50px;
+  margin-left: 100px;
+  /* margin: 20px 0px; */
+  justify-content: flex-start;
+}
+.profile-progress {
+  display: flex;
+  border-bottom: 1px solid;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 20px;
+  border-radius: 50px;
+  /* border: 1px solid black; */
+  width: 200px;
+  height: 150px;
+  // box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  // background-color: #f1c137;
+}
+.profile-third-section {
+  display: flex;
+  /* width: 100%; */
+  margin: 50px;
+  margin-left: 140px;
+  /* margin: 20px 0px; */
+  justify-content: flex-start;
+}
+.main-dataset-grid {
+  align-items: center;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 20px 0px;
+
+  align-items: flex-start;
+  width: 100%;
+}
+.tag-btn {
+  border: none;
+  background-color: white;
+  color: "black";
+  padding: 20px 25px;
+  font-family: "JosefinSans";
+  border-radius: 10px;
+  justify-content: flex-start;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+button.active {
+  border: none;
+  background-color: #6bd0ff;
+  padding: 20px 25px;
+  border-radius: 10px;
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: "JosefinSans";
+}
+.dataset-viewmore {
+  border: none;
+  background-color: #f7d060;
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin: 20px 0px;
+  color: black;
+  font-size: 15px;
+  margin-top: auto;
+  letter-spacing: 2px;
+}
+.dataset-dec {
+  letter-spacing: 0px;
+  line-height: 22px;
+  font-family: "JosefinSans";
+  font-weight: 500;
+  text-align: justify;
+  font-size: 17px;
+  display: -webkit-box;
+  max-width: 300px;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.main-dataset-grid-profile {
+  align-items: center;
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 20px 0px;
+  align-items: flex-start;
+  width: 75%;
+  margin-left: 140px;
+}
+.alldataset-grid {
+  font-weight: 500;
+  color: white;
+  line-height: 20px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

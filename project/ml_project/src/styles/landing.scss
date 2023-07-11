@@ -1,0 +1,279 @@
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  min-height: 85vh;
+  background-color: #1f2123;
+
+  .hero-left {
+    width: 50%;
+    min-height: 33vh;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-evenly;
+
+    h1 {
+      font-family: "JosefinSans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 3rem;
+      width: 100%;
+      word-wrap: break-word;
+      margin-bottom: 10px;
+      margin-top: 0;
+    }
+    p {
+      font-size: 1.2rem;
+      // font-family: "JosefinSans";
+      font-style: normal;
+      font-weight: 600;
+      line-height: 2rem;
+      margin-bottom: 2.5rem;
+    }
+    p:first-of-type {
+      margin: 0;
+      padding-left: 5px;
+      font-size: 20px;
+      font-weight: 200;
+      letter-spacing: 2px;
+      width: 80%;
+    }
+    .hero-left-buttons {
+      display: flex;
+      flex-direction: row;
+
+      button {
+        cursor: pointer;
+        border-radius: 99999px;
+        box-shadow: none;
+        background: none;
+        border: none;
+        background-color: none;
+        margin-right: 16px;
+        height: 48px;
+        padding: 0 40px;
+        font-weight: 700;
+        margin: 20px 0px;
+        font-size: 16px;
+        letter-spacing: 2px;
+      }
+      button.hero-btn-1 {
+        background-color: #6bd0ff;
+        color: black;
+       
+      }
+      // button.hero-btn-2 {
+      //   box-shadow: 0 0 0 2px #e6e8ec inset;
+      //   color: #23262f;
+      //   &:hover {
+      //     background-color: #23262f;
+      //     color: #ffffff;
+      //   }
+      // }
+    }
+  }
+  .hero-right {
+    // width: 50%;
+    // min-height: 90vh;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: baseline;
+    // justify-content: center;
+    // position: relative;
+
+    .hero-right-bg {
+      background-color: #f5f5f5;
+      //   height: 90%;
+      //   width: 100%;
+      width: 70%;
+      height: 80%;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      z-index: 0;
+    }
+    .hero-right-inside {
+      display: flex;
+      justify-content: flex-end;
+      position: relative;
+      -webkit-box-pack: end;
+      z-index: 1;
+
+      animation: bns1 4s linear infinite;
+      @keyframes bns1 {
+        50% {
+          transform: rotate(-3deg);
+        }
+        80% {
+          transform: translateX(5px);
+        }
+      }
+
+      img.hero-right-bg1 {
+        z-index: 1;
+        border-radius: 1rem;
+        width: 500px;
+        height: 700px;
+      }
+      .hero-right-inside-box {
+        position: absolute;
+        left: 0px;
+        bottom: 50px;
+        max-width: 330px;
+        padding: 30px;
+        z-index: 99;
+        background-color: #0b093b;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p.heor-right-quote {
+          color: white;
+        }
+      }
+    }
+
+    svg {
+      position: absolute;
+      bottom: 25%;
+      right: 15%;
+      z-index: 0;
+    }
+  }
+}
+
+.section2 {
+  .section2-title {
+    justify-content: center;
+    // margin-top: 4%;
+    // margin-bottom: 4%;
+    font-family: "JosefinSans";
+    font-style: normal;
+    font-weight: 600;
+  }
+  .section2-text {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2%;
+    margin: 3%;
+  }
+
+  .grid-item {
+    background-color: white;
+    padding: 4%;
+    border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    text-align: center;
+  }
+
+  .grid-item-text {
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    // justify-content: center;
+  }
+}
+.card-title {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.card-dec {
+  // font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  line-height: 20px;
+  text-align: justify;
+}
+
+.section3 {
+  .section3-left {
+    width: 50%;
+    min-height: 90vh;
+    margin: 0 auto;
+    // display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .section-left-inside {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .section3-right-title {
+    font-size: 2.5rem;
+    text-align: center;
+    justify-content: center;
+    font-family: "JosefinSans";
+    font-style: normal;
+    font-weight: 600;
+    color: black;
+    margin: 20px;
+  }
+  .section3-left-bg2 {
+    width: 400px;
+    animation: bns1 4s linear infinite;
+    @keyframes bns1 {
+      50% {
+        transform: rotate(-2deg);
+      }
+      80% {
+        transform: translateX(5px);
+      }
+    }
+  }
+  .section3-right-content {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+   
+
+    .fa-circle {
+      font-size: 1rem;
+    }
+    .section3-card {
+     color: black;
+      margin: 20px 0px;
+      height: 25vh;
+     background-color: white;
+      padding: 40px 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+  }
+}
+
+.copyright {
+  text-align: center;
+  background-color: #1f2123;
+  color: white;
+  padding: 5px 0px;
+  font-size: 18px;
+  letter-spacing: 2px;
+}

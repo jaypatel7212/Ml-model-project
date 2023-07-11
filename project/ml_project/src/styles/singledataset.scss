@@ -1,0 +1,88 @@
+.signledataset-main-div {
+  margin: 50px 0px;
+  .single-data-btn {
+    width: 200px;
+    background-color: #f7d060;
+    padding: 15px 10px;
+    border-radius: 10px;
+    color: black;
+    border: none;
+    font-size: 17px;
+    margin: 0px 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: "JosefinSans";
+  }
+
+  .single-dataset-flex-sidebar {
+    display: flex;
+    // height: 25vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+  }
+  .single-dataset-img {
+    width: 300px;
+    margin: 10px 0px;
+  }
+  .single-data-title {
+    width: 100%;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: "JosefinSans";
+  }
+  .single-dataset-flex-content {
+    display: flex;
+    padding: 20px 50px;
+    justify-content: space-between;
+  }
+  .single-dataset {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 18vh;
+    justify-content: space-around;
+  }
+  .single-dataset-desc {
+    font-size: 15px;
+    text-align: justify;
+  }
+}
+pre {
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+code.language-csv {
+  display: block;
+  font-family: monospace;
+  font-size: 14px;
+  white-space: pre;
+}
+.back-btn {
+  background-color: #f7d060;
+  padding: 0px 10px;
+  border-radius: 10px;
+  color: black;
+  border: none;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: "JosefinSans";
+}
+.button-spin-svg-pic {
+  animation: spin 1s linear infinite;
+  width: 30px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
